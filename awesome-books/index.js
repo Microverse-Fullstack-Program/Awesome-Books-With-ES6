@@ -1,12 +1,12 @@
-import { displayDateTime } from "./modules/Date.js";
-import { displayBooks } from "./modules/displayRemove.js"
+import { displayDateTime } from './modules/Date.js';
+import { displayBooks } from './modules/displayRemove.js'
 import {
   section,
   navBtn,
   listPage, 
   addPage, 
   contactPage,
-} from "./modules/navButtons.js"
+} from './modules/navButtons.js'
 
 /* pages navigation */
 navBtn[0].addEventListener('click', listPage);

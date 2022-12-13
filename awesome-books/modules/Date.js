@@ -1,4 +1,4 @@
-import { DateTime } from "./luxon.js";
+import { DateTime } from './luxon.js';
 
 // Date & Time Display Function
 const dateContainer = document.getElementById('date');

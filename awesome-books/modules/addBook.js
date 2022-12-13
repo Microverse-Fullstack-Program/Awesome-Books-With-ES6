@@ -1,6 +1,6 @@
 
-import { Book } from "./bookClass.js"
-import { displayBooks } from "./displayRemove.js"
+import { Book } from './bookClass.js'
+import { displayBooks } from './displayRemove.js'
 
 const bookTitle = document.querySelector('#book-title');
 const bookAuthor = document.querySelector('#book-author');
