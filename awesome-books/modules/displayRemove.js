@@ -40,6 +40,6 @@ const displayBooks = ({ title, author, id }) => {
       });
     });
   });
-}
+};
 
 export default displayBooks;

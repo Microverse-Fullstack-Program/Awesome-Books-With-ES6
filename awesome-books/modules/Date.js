@@ -7,6 +7,6 @@ const displayDateTime = () => {
   const dateString = currentDate.toLocaleString(DateTime.DATETIME_MED);
   dateContainer.textContent = dateString;
   setInterval(displayDateTime, 1000);
-}
+};
 
 export default displayDateTime;
