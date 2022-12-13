@@ -1,4 +1,3 @@
-
 // Script For Single Page Appliction
 export const section = document.querySelectorAll('section');
 export const navBtn = document.querySelectorAll('.nav-bar a');

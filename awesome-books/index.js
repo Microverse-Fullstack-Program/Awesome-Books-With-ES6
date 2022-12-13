@@ -1,12 +1,12 @@
 import { displayDateTime } from './modules/Date.js';
-import { displayBooks } from './modules/displayRemove.js'
+import { displayBooks } from './modules/displayRemove.js';
 import {
   section,
   navBtn,
-  listPage, 
-  addPage, 
+  listPage,
+  addPage,
   contactPage,
-} from './modules/navButtons.js'
+} from './modules/navButtons.js';
 
 /* pages navigation */
 navBtn[0].addEventListener('click', listPage);
@@ -26,5 +26,5 @@ window.addEventListener('DOMContentLoaded', () => {
   section[1].style.display = 'none';
   section[2].style.display = 'none';
   // On Page Load, Display Date & Time
-  displayDateTime ();
+  displayDateTime();
 });

@@ -1,7 +1,5 @@
-
-import { Book } from './bookClass.js'
-import { displayBooks } from './displayRemove.js'
-
+import { Book } from './bookClass.js';
+import { displayBooks } from './displayRemove.js';
 const bookTitle = document.querySelector('#book-title');
 const bookAuthor = document.querySelector('#book-author');
 const addBtn = document.querySelector('#add-book');
@@ -30,7 +28,7 @@ addBtn.addEventListener('click', (event) => {
     bookTitle.value = '';
     bookAuthor.value = '';
     // Display New Book
-    const newBook = {title, author, id}
+    const newBook = { title, author, id };
     displayBooks(newBook);
   }
 });
