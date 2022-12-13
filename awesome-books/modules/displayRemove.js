@@ -1,7 +1,7 @@
 const booksContainer = document.querySelector('#book-list');
 
 // Function displayBooks.
-export default displayBooks = ({ title, author, id }) => {
+export default function displayBooks ({ title, author, id }) {
   const newBook = document.createElement('div');
   newBook.id = id;
   newBook.className = 'book-wrapper';
